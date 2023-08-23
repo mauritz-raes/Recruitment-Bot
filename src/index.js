@@ -11,9 +11,9 @@ const client = new Client({
 });
 
 client.on("ready", (c) => {
-  console.log(`${c.user.tag} is online.`);
+  console.log("ONLINE");
 });
 
 client.on("guildMemberAdd", (member) => {});
 
-client.login(process.env.TOKEN);
+client.login(process.env.token);
